@@ -97,7 +97,7 @@ export const messages = {
   // button description - to view all informations
   "view_all": "Подивитись все",
   // button description - to create an account or token
-  "create": "Стровити",
+  "create": "Створити",
   // information field - country
   "country": "Регіон",
   // field description - eg. amout: 20 trx
@@ -323,7 +323,7 @@ export const messages = {
   // button description to receive test trx
   "trx_received": "TRX отримано",
   // errormessage - TRX for testing temporarily unavailable
-  "test_trx_temporarily_unavailable_message": "Тостові TRX тимчасово недоступні. Будь ласка спробуйте пізніше.",
+  "test_trx_temporarily_unavailable_message": "Тестові TRX тимчасово недоступні. Будь ласка спробуйте пізніше.",
   // errormessage - Not enough TRX to freeze
   "not_enough_trx": "Недостатньо TRX",
   "information_message_3": "Запит на отримання ТRX успішний. Якщо ви не отримали TRX, значить відсутні тестові TRX, які можливо отримати прямо зараз, і вам слід спробувати ще раз пізніше.",
@@ -385,48 +385,49 @@ export const messages = {
   "your_personal_website_address": "адреса персонального вебсайту",
   // infomessage - predescription
   "apply_for_delegate_predescription":`Кожний тримач токенів має можливість стати Супер-представником ТРОН.
-   Однак, щоб мережа та спільнота працювали більш ефективно, ми створили набір стандартів і правил для кандидатів, які мають право стати рекомендованими Супер-представниками. We will promote recommended SRs to increase their
-   chances of being elected. New recommended Super Representatives are updated and posted once a week.`,
+   Однак, щоб мережа та спільнота працювали більш ефективно, ми створили набір стандартів і правил для кандидатів, які мають право стати рекомендованими Супер-представниками. 
+   Ми будемо просувати наших супер-представників задля збільшення їх шанси бути обраними. 
+   Щотижня ми будемо оновлювати дані о супер-представниках`,
   // infomessage - description
   "apply_for_delegate_description": `
-   TRX holders can apply to become a super delegate by using the account management function, and vote for candidates.
-   Each account can update current voter information and also is allowed to vote for multiple candidates.
-   The maximum number of votes is less than or equal to the number of TRX users hold each time.
-   (If you have certain sum of TRX, you can vote less than or equal to certain number of votes).
-   The result of votes will be calculated based on the final voter information of every account in each
-   voting cycle of which the time is from 00:00 to 24:00. TRX holders with the most votes will become super delegate.
-   Every transaction made in the network is required to be validated by all SuperDelegates, and some bonuses will be getted.
-   TRX will not be consumed in the process of super delegate application and voting.`,
+   Власники TRX можуть подати заявку, щоб стати Супер-представником, використовуючи функцію управління обліковим записом, а також проголосувати за кандидатів.
+   Кожний обліковий запис може оновити поточні дані про виборців, а також дозволяє проголосувати за декількох кандидатів.
+   Максимальна кількість голосів має бути меншою або дорівнює кількості користувачів TRX, які користувачі мають кожного разу.
+   (Якщо у вас є певна кількість TRX, ви можете віддати менше або рівне цим TRX кількість голосів).
+   Результат голосування буде розраховуватися на підставі остаточної інформації про виборців кожного рахунку в кожному
+   циклі голосування, який триває з 00:00 до 24:00. Власники TRX з більшістю голосів стануть суперделегатами.
+   Кожна транзакція, здійснена в мережі, повинна бути перевірена усіма Супер-представниками, які отримають за це бонуси.
+   TRX не буде витрачатися в процесі голосування за Супер-представників.`,
   // errormessage - an unknown error occurred
-  "unknown_error": "an unknown error occurred",
+  "unknown_error": "сталася невідома помилка",
   // confirm - message
-  "representative_understand": "I understand how to be a TRON representative",
+  "representative_understand": "Я розумію як стати Представником TRON",
   // button description - create address and password
-  "generate_account": "Click to generate your account address and password",
+  "generate_account": "Натисніть, щоб створити адресу та пароль свого облікового запису",
   // confirm message - part 1
-  "create_account_confirm_1": "I understand that if I forget/lose my password I will never be able to access my assets",
+  "create_account_confirm_1": "Я розумію, що якщо я забуду/втрачу свій пароль, то ніколи не зможу отримати доступ до своїх активів",
   // confirm message - part 2
-  "create_account_confirm_2": "I understand that if I forget/lose my password no one will be able to help me recover it",
+  "create_account_confirm_2": "Я розумію, що якщо я забуду/втрачу свій пароль, то ніхто не зможе допомогти мені відновити його",
   // confirm message - part 3
-  "create_account_confirm_3": "I've written my password on paper",
+  "create_account_confirm_3": "Я написав свій пароль на папері",
   // confirm message - submitting the vote
-  "vote_thanks": "Thanks for submitting your vote!",
-  "recent_transactions": "recent transactions",
-  "newest_account": "newest account",
-  "representatives": "representatives",
-  "most_votes": "most votes",
-  "start_end_time": "Start / End Time",
-  "scan_qr_code": "Scan the code with a QR Code scanner",
-  "receive_trx": "receive TRX",
-  "require_account_to_send": "You must be logged in to send coins",
-  "require_account_to_receive": "You must be logged in to receive coins",
-  "successful_send": "Succesfully send!",
-  "confirm_transaction": "confirm transaction",
-  "last_confirmed": "Last Confirmed",
-  "trx_produced": "Transactions Produced",
-  "do_not_send_1": "Do not send TRX from your own wallet or exchange to your testnet address!",
+  "vote_thanks": "Дякуємо за голосування!",
+  "recent_transactions": "останні операції",
+  "newest_account": "найновші облікові записи",
+  "representatives": "представноки",
+  "most_votes": "більшість голосів",
+  "start_end_time": "Час Початку/Кінця",
+  "scan_qr_code": "Проскануйте код з QR Code сканером",
+  "receive_trx": "отримати TRX",
+  "require_account_to_send": "Ви повинні увійти в систему для відправки монет",
+  "require_account_to_receive": "Ви повинні увійти в систему для отримання монет",
+  "successful_send": "Успішно відправлено!",
+  "confirm_transaction": "підтвердити транзакцію",
+  "last_confirmed": "Останній підтверджений",
+  "trx_produced": "Транзакцій зроблено",
+  "do_not_send_1": ""Не відправляйте TRX з вашого власного гаманця або біржі на зазначену адресу облікового запису тест-мережі!",
   // button description - Go to votelist
-  "go_to_votelist": "Go to votelist",
+  "go_to_votelist": "До списку виборців",
 
 /*
 ##################################################################################
@@ -436,49 +437,49 @@ export const messages = {
 ##################################################################################
 */
   // description of an input field - Name of the token
-  "name_of_the_token": "Name of the token",
+  "name_of_the_token": "Ім'я токену",
   // longdescription - additional userinfo - Name of the token
-  "token_message": "Name for the token",
+  "token_message": "Ім'я для токену",
   // description of an input field - token Abbreviation
-  "token_abbr": "token Abbreviation",
+  "token_abbr": "Аббревіатура токену",
   // longdescription - additional userinfo - token Abbreviation
-  "abbr_message": "Abbreviation for the token",
+  "abbr_message": "Аббревіатура для токену",
   // field information - statistics - total supply of trx
-  "total_supply": "total supply",
+  "total_supply": "всього токенів",
   // field information - issued token
-  "issued_token": "issued token",
+  "issued_token": "випущено токенів",
   // button description - Create Token
-  "create_token": "Create Token",
+  "create_token": "Створити токен",
   // description of an input field - Description
-  "description": "Description",
+  "description": "Опис",
   // description of an input field -  Description URL
-  "description_url": "Description URL",
+  "description_url": "Опис URL",
   // field information - Quote Token Amount
-  "quote_token_amount": "Quote Token Amount",
+  "quote_token_amount": "Загальна кількість токенів",
   // field information - Base Token Amount
-  "base_token_amount": "Base Token Amount",
+  "base_token_amount": "Базова кількість токенів",
   // statusmessage - Creating a token
-  "creating_a_token": "Creating a token",
+  "creating_a_token": "Створення токена",
   // field information - available
-  "available": "available",
+  "available": "наявні",
   // title - Testnet
-  "testnet": "Testnet",
-  "days_to_freeze": "Days to freeze",
-  "trx_token_fee_message": "1024 TRX is required to issue a new token",
-  "trx_token_account_limit": "You may create only one token per account",
-  "trx_token_wallet_requirement": "You need to open a wallet to be able to create a token",
-  "invalid_address": "invalid address",
-  "insufficient_tokens": "Insufficient tokens",
-  "fill_a_valid_number": "Please fill a valid number",
-  "fill_a_valid_address": "Please fill a valid address",
-  "make_another_transaction": "Make another transaction",
-  "token_exchange_confirm": "I've confirmed to spend {trxAmount} on token distribution, and get a total of {tokenAmount} tokens.",
-  "An_unknown_error_occurred,_please_try_again_in_a_few_minutes": "An unknown error occured, please try again in a few minutes",
-  "An_error_occurred": "An error occurred",
-  "create_a_token": "Create a token",
-  "not_started_yet": "Not started yet",
-  "participated": "You successfully participated!",
-  "participated_error": "An error occurred",
+  "testnet": "Тестова мережа",
+  "days_to_freeze": "Днів заморзки",
+  "trx_token_fee_message": "1024 TRX необхідно для випуску нового токену",
+  "trx_token_account_limit": "Ви можете створити тільки 1 токен для кожного облікового запису",
+  "trx_token_wallet_requirement": "Вім потрідно відкрити гаманець, для створення токену",
+  "invalid_address": "некоректна адреса",
+  "insufficient_tokens": "Недостатньо токенів",
+  "fill_a_valid_number": "Будь ласка, введіть коректний номер",
+  "fill_a_valid_address": "Будь ласка, введіть коректну адресу",
+  "make_another_transaction": "Здійсніть іншу транзакцію",
+  "token_exchange_confirm": "Я підтверджую витрату {trxAmount} на розподіл токенов, і отримання {tokenAmount} токенів.",
+  "An_unknown_error_occurred,_please_try_again_in_a_few_minutes": "Виникла невідома помилка, будь ласка, спробуйте ще раз через кілька хвилин",
+  "An_error_occurred": "Виникла помилка",
+  "create_a_token": "Створити токен",
+  "not_started_yet": "Ще не почалося",
+  "participated": "Ви успішно взяли участь!",
+  "participated_error": "Виникла помилка",
 
 /*
 ##################################################################################
@@ -488,13 +489,13 @@ export const messages = {
 ##################################################################################
 */
   // messagedialog - title
-  "buy_confirm_message_0": "Are you sure?",
+  "buy_confirm_message_0": "Ви впевненні?",
   // messagedialog - maintext
-  "how_much_buy_message": "How much tokens do you want to buy?",
+  "how_much_buy_message": "Яку кількість токенів ви бажаєте купити?",
   // infomessage - text module 1 - Are you sure you want to buy 1 <Tokenname> for 1 TRX
-  "buy_confirm_message_1": "Are you sure you want to buy",
+  "buy_confirm_message_1": "Ви дійсно бажаєте купити",
   // infomessage - text module 1 - Are you sure you want to buy 1 <Tokenname> for 1 TRX
-  "for": "for",
+  "for": "для",
 
 /*
 ##################################################################################
@@ -504,62 +505,63 @@ export const messages = {
 ##################################################################################
 */
   // error message - incorrect trx address
-  "address_warning": "Only enter valid TRON wallet address. Incorrect addresses can lead to TRX loss.",
+  "address_warning": "Введіть тільки дійсну адресу гаманця TRON. Неправильні адреси можуть призвести до втрати TRX.",
   // statusmessage - search for address or URL
-  "search_address_or_url": "Search for address or URL",
+  "search_address_or_url": "Пошук за адресою або URL",
   // statusmessage
-  "the_lunch_test": "The launch of testnet aims to test all the features of our blockchain explorer and wallet.",
+  "the_lunch_test": "Запуск тестової мережі націлений на тестування всіх функцій нашого блокчейн-оглядача і гаманця.",
   // statusmessage
-  "please_keep_in_mind": "Please keep in mind, that since your registered account address is only used for testnet, do not send TRX from your own wallet or exchange to the account address of testnet.",
+  "please_keep_in_mind": "Будь ласка, майте на увазі, що ваша адреса облікового запису зареєстрована тільки для використання 
+   в тестовій мережі, не відправляйте TRX з вашого власного гаманця або біржі на адресу облікового запису в тестовій мережі.",
   // statusmessage - title
   "tron_foundation": "TRON Foundation",
   // statusmessage
-  "trx_for_testing": "TRX for testing will be sent to your testing account once you successfully apply through account management.",
+  "trx_for_testing": "TRX для тестування буде відправлено до вашого тестового облікового запису після успішного застосування через керування обліковим записом.",
   // statusmessage
-  "dear_users": "Dear users,",
+  "dear_users": "Шановні користувачі,",
   // field information  - fin
-  "finished": "Finished",
+  "finished": "Завершено",
   // field information  - token
-  "token": "token",
+  "token": "токен",
   // field information  - website url
   "url": "url",
   // infomessage - loggin is required
-  "need_to_login": "You must be logged in to access to account page",
+  "need_to_login": "Ви повинні увійти в систему, щоб отримати доступ до сторінки облікового запису",
   // confirm message - Thanks for applying!
-  "thanks_for_applying": "Thanks for applying!",
+  "thanks_for_applying": "Дякуємо за подачу заявки!",
   // errormessage - To many votes
-  "to_much_votes": "To many votes",
+  "to_much_votes": "Велика кількість голосів",
   // errormessage - No TRX remaining
-  "no_trx_remaining": "No TRX remaining",
+  "no_trx_remaining": "TRX не залишилося",
   // statusmessage - Produced by TRX address
-  "produced_by": "Produced by {witnessAddress}",
+  "produced_by": "Вироблено {witnessAddress}",
    // infomessage .. Show XXX more
-  "show_more": "Show {countriesLength} More",
+  "show_more": "Показати {countriesLength} більше",
   // infomessage - vote guide
-  "vote_guide_message": `Use your TRX to vote for Super Representatives.
-   For every TRX you hold in your account you have one vote to spend.
-   TRX will not be consumed. You can vote as many times for the several representatives as you like.
-   The final votes will be tallied at 24 o'clock and the list of delegates will be updated.`,
+  "vote_guide_message": `Використовуйте TRX для голосування за Супер-Представників.
+   За кожен TRX який є в обліковому записі, Ви отримуєте один голос для голосування.
+   TRX НЕ будуть витрачатися. Ви можете голосувати скільки завгодно раз за кількох бажаних представників.
+   Фінальні голоси будуть підраховані в 24 години і список делегатів буде оновлено.`,
   // infofield
-  "search_address": "Search for address",
+  "search_address": "Пошук за адресою",
   // infofield - Token Transactions
-  "token_transactions": "Token Transactions",
+  "token_transactions": "Транзакції токенів",
   // infofield - Token Holders
-  "token_holders": "Token Holders",
+  "token_holders": "Тримачі токенів",
   // infofield - Number of Transfers
-  "nr_of_Transfers": "Number of Transfers",
+  "nr_of_Transfers": "Кількість переказів",
   // errormessage -> login required
-  "not_signed_in": "You will need to log in to make use of this functionality",
+  "not_signed_in": "Ви повинні увійти в систему для використання цього функціоналу",
   // statusmessage - Loading Map
-  "loading_map": "Loading Map",
+  "loading_map": "Завантаження карти",
   // statusmessage - loading Accounts
-  "loading_accounts": "loading Accounts",
+  "loading_accounts": "завантаження облікового запису",
   // table - row title - quantity
-  "quantity": "quantity",
+  "quantity": "кількість",
   // table - row title - Percentage
-  "percentage": "Percentage",
+  "percentage": "Відсоток",
   // statusmessage - loading token
-  "loading_token": "Loading Token",
+  "loading_token": "Завантаження токену",
 
 /*
 ##################################################################################
@@ -569,19 +571,19 @@ export const messages = {
 ##################################################################################
 */
   // statusmessage - No transactions found
-  "no_transactions_found": "No transactions found",
+  "no_transactions_found": "Транзакції не знайдені",
   // statusmessage - No tokens found
-  "no_tokens_found": "No tokens found",
+  "no_tokens_found": "Токени не знайдені",
   // statusmessage - No blocks found
-  "no_blocks_found": "No blocks found",
+  "no_blocks_found": "Блоки не знайдені",
   // statusmessage - No votes found
-  "no_votes_found": "No votes found",
+  "no_votes_found": "Голоси не знайдені",
   // statusmessage - No voters found
-  "no_voters_found": "No voters found",
+  "no_voters_found": "Голосуючі не знайдені",
   // statusmessage - Waiting for transactions ... still waiting
-  "waiting_for_transactions": "Waiting for transactions",
+  "waiting_for_transactions": "В очікуванні тринзакції",
   // statusmessage - Loading Address ... still waiting
-  "loading_address": "Loading Address",
+  "loading_address": "Завантаження адресів",
 
 /*
 ##################################################################################
@@ -591,65 +593,64 @@ export const messages = {
 ##################################################################################
 */
   // button description - details
-  "details": "details",
+  "details": "деталі",
   // button description - Issue a Token
-  "issue_a_token": "Issue a Token",
+  "issue_a_token": "Випустити токен",
   // table - row name - Issue Token
-  "issue_token": "Issue Token",
+  "issue_token": "Випустити токен",
   // table - row name - token name
-  "token_name": "token name",
+  "token_name": "ім'я токену",
   // table - row name - Total issued
-  "total_issued": "Total issued",
+  "total_issued": "Всього видано",
   // table - row name - Registered
-  "registered": "Registered",
+  "registered": "Зареєстровано",
   // table - row name - Abbreviations
-  "abbreviation": "Abbreviations",
+  "abbreviation": "Абревіатури",
   // title - Exchange Rate
-  "exchange_rate": "Exchange Rate",
+  "exchange_rate": "Курс обміну",
   // table - row name - Token Price
-  "token_price": "Token Price",
+  "token_price": "Ціна токену",
   // usermessage - total amount of tokens
-  "supply_message": "Total amount of tokens which will be in circulation",
+  "supply_message": "Загальна кількість токенов, які будуть в обігу",
   // field description - short description
-  "description_message": "A short description of the purpose of the token",
+  "description_message": "Короткий опис призначення токену",
   // field description - website url
-  "url_message": "A website where users can find more information about the token",
+  "url_message": "Веб сайт, де користувачі можуть знайти більше інформації про токен",
   // usermessage - Token
-  "exchange_rate_message_0": "Specify the price of a single token by defining how many tokens a participant will receive for every TRX they spend.",
+  "exchange_rate_message_0": "Вкажіть ціну одного токена, визначивши, скільки токенов учасник отримає за кожен витрачений TRX.",
   // usermessage - text part 1 - Participants will receive 20 XXX for every 10 TRX
-  "exchange_rate_message_1": "Participants will receive",
+  "exchange_rate_message_1": "Учасник отримає",
   // usermessage - text part 2 - Participants will receive 20 XXX for every 10 TRX
-  "exchange_rate_message_2": "for every",
+  "exchange_rate_message_2": "за кожен/кожні",
   // usermessage - text part 3 - Participants will receive 20 XXX for every 10 TRX
   "exchange_rate_message_3": "TRX",
   // usermessage - text part 1 - Participation Message
-  "participation_message_0": "Specify the participation period in which tokens will be issued. During the participation period users can exchange TRX for ",
+  "participation_message_0": "Вкажіть період участі, в якому будуть випущені токени. Протягом періоду участі користувачі можуть обміняти TRX на ",
   // usermessage - text part 2 - Participation Message
-  "participation_message_1": " tokens.",
+  "participation_message_1": " токени.",
   // usermessage - text part 1 - frozen supply message
-  "frozen_supply_message_0": `A part of the supply can be frozen. The amount of supply can be specified and must be frozen
-   for a minimum of 1 day. The frozen supply can manually be unfrozen after start date + frozen
-   days has been reached. Freezing supply is not required.`,
+  "frozen_supply_message_0": `Частина обсягу може бути заморожена. Обсяг може бути вказаний і буде заморожений як мінімум на 1 день.. Заморожений обсяг може бути вручну розморожений після дати початку + заморожені
+  дні були досягнуті. Заморожений обсяг не потрібен.`,
   // statusmessage - Token successfully issued
-  "token_issued_successfully": "Token successfully issued",
+  "token_issued_successfully": "Токен успішно випущений",
   // title - participation
-  "participation": "participation",
+  "participation": "учасник",
   // description - date/time pannel - Start Date
-  "start_date": "Start Date",
+  "start_date": "Дата початку",
   // description - date/time pannel - End Date
-  "end_date": "End Date",
+  "end_date": "Дата кінця",
   // confirm message - token spend
-  "token_spend_confirm": "I confirm that creating the total supply of the token costs a one time total fee of 1024 TRX.",
+  "token_spend_confirm": ""Я підтверджую, що створення загального обсягу токенов дорівнює в цілому 1024 TRX",
   // userinfomation - token issue guide message - part 1
-  "token_issue_guide_message_1": `Issuing a token on the Tron Protocol can be done
-    by anyone who has at least 1024 TRX in their account.`,
+  "token_issue_guide_message_1": `Випуск токена на Протоколі Tron можливо
+    для кожного, хто має хоча б 1024 TRX на своєму акаунті..`,
   // userinfomation - token issue guide message - part 2
-  "token_issue_guide_message_2":`When a token is issued it will be shown on the token overview page.
-    Users can then participate within the participation period and exchange their TRX for tokens.`,
+  "token_issue_guide_message_2":`Коли токен випущений, це повинно бути відображено на сторінці огляду токена. 
+   Потім користувачі можуть брати участь під час періоду участі і обміну TRX на токени.`,
   // userinfomation - token issue guide message - part 3
-  "token_issue_guide_message_3":`After issuing the token your account will receive the amount of tokens equal to the total supply.
-    When other users exchange their TRX for tokens then the tokens will be withdrawn from your account and you will
-    receive TRX equal to the specified exchange rate.`,
+  "token_issue_guide_message_3":`Після випуску токена ваш аккаунт отримає кількість токенов, що дорівнює загальному обсягу.
+    Коли інші користувачі обмінюють свої TRX на токени, то токени будуть списуватися з Вашого облікового запису і Ви будете
+    отримувати TRX, рівні зазначеному обмінному курсу.`,
 
 /*
 ##################################################################################
@@ -659,27 +660,27 @@ export const messages = {
 ##################################################################################
 */
   // errormessage - startdate>= enddate
-  "date_error": "The end date is earlier or the same as the starting date",
+  "date_error": "Дата закінчення раніше або збігається з датою початку",
   // errormessage - an token name is required
-  "no_name_error": "Name is required",
+  "no_name_error": "Потрібно ім'я",
   // errormessage - total supply > 0
-  "no_supply_error": "Total Supply must be at least 1",
-  // errormessage - token amount musst be at least 1
-  "coin_value_error": "Token amount must be at least 1",
+  "no_supply_error": "Загальний обсяг повинен бути рівний хоча б 1",
+  // errormessage - token amount must be at least 1
+  "coin_value_error": "Кількість токенов має дорівнювати хоча б 1",
   // errormessage - The amount of TRX per coin must be at least 1
-  "tron_value_error": "The amount of TRX per coin must be at least 1",
+  "tron_value_error": "Кількість TRX за монету має дорівнювати хоча б 1",
   // errormessage - startdate is invalid
-  "invalid_starttime_error": "The provided starting date is invalid",
+  "invalid_starttime_error": "Надана ​​початкова дата не коректна",
   // errormessage - enddate is invalid
-  "invalid_endtime_error": "The provided ending date is invalid",
+  "invalid_endtime_error": "Надана ​​кінцева дата не коректна",
   // errormessage - en tokendescription is required
-  "no_description_error": "Description is required",
+  "no_description_error": "Опис необхідний",
   // errormessage - en URL (website) is required
-  "no_url_error": "Web URL is required",
+  "no_url_error": "Web посилання необхідне",
   // errormessage - startdate < now
-  "past_starttime_error": "The starting date is in the past",
+  "past_starttime_error": "Початкова дата в минулому",
   // statusmessage - no transactions available
-  "no_transactions": "No Transactions",
+  "no_transactions": "Немає транзакцій",
 
 /*
 ##################################################################################
@@ -689,19 +690,19 @@ export const messages = {
 ##################################################################################
 */
   // statistic dialog - Highest Productivity eg. tron node XXX Highest Productivity
-  "highest_productivity": "Highest Productivity",
+  "highest_productivity": "Найвища продуктивність",
   // statistic dialog - Highest Productivity eg. tron node YYY Lowest Productivity
-  "lowest_productivity": "Lowest Productivity",
+  "lowest_productivity": "Найнижча продуктивність",
   // title name - SR
-  "Super Representatives": "Super Representatives",
+  "Super Representatives": "Супер-представники",
   // title name - SRC
-  "Super Representative Candidates": "Super Representative Candidates",
+  "Super Representative Candidates": "Кандидати у Супер-представники",
   // statusmessage -  loding Representatives informations
-  "loading_representatives": "Loading Representatives",
+  "loading_representatives": "Завантаження представників",
   // errormessage - not a valid SR address
-  "address_not_super_representative": "This address is not a Super Representative",
+  "address_not_super_representative": "Ця адреса не є адресою Супер-представника",
   // errormessage - unable to load SR page
-  "unable_load_representatives_page_message": "Unable to load page, this may happen if the address is invalid, the address is not a representative or the representative did not configure this page yet",
+  "unable_load_representatives_page_message": "Не вдається завантажити сторінку, це може статися, якщо адреса недійсна, адреса не є адресою представника, або представник ще не налаштовував цю сторінку",
 
 /*
 ##################################################################################
@@ -711,17 +712,17 @@ export const messages = {
 ##################################################################################
 */
   // statistic information (Average Price in USD)
-  "average_price_usd": "Average Price in USD",
+  "average_price_usd": "Середня ціна в USD",
   // statistic information (Average Volume in USD)
-  "average_volume_usd": "Average Volume in USD",
+  "average_volume_usd": "Середній об'єм USD",
   // statistic information (Trade Volume)
-  "Trade Volume": "Trade Volume",
+  "Trade Volume": "Торговий Об'єм",
   // table - row titel - rank of exchanges (trading volume)
-  "rank": "rank",
+  "rank": "рейтинг",
   // table - row titel - pair (trading pair TRX/USD)
-  "pair": "pair",
+  "pair": "пара",
   // table - row titel - Volume (trading volume)
-  "volume": "Volume",
+  "volume": "Об'єм",
 
 /*
 ##################################################################################
@@ -731,53 +732,53 @@ export const messages = {
 ##################################################################################
 */
   // statistic information eg. 02:00 ..Next Round
-  "next_round": "Next Round",
+  "next_round": "Наступний раунд",
   // statistic information eg.23982829432 Total Votes
-  "total_votes": "Total Votes",
+  "total_votes": "Всього голосів",
   // statistic information eg. Most Ranks Gained This Round .. SR TEST
-  "most_ranks": "Most Ranks Gained This Round",
+  "most_ranks": "Вищий рейтинг за раунд",
   // button description - to View Live Ranking
-  "view_live_ranking": "View Live Ranking",
+  "view_live_ranking": "Подивитися рейтинг наживу",
   // button description - to Open Team Page
-  "open_team_page": "Open Team Page",
+  "open_team_page": "Відкрити сторінку у команди",
   // userinformation message - text section 1
-  "warning_votes": "At least 1 Tron Power is required to start voting. Tron Power is gained by freezing TRX on the",
+  "warning_votes": "Хоча б 1 Tron Power потрібно для початку голосування. Tron Power досягається заморожуванням TRX на",
   // userinformation message - HyperLink - text section 2
-  "account_page": "Account Page",
+  "account_page": "Сторінці Облікового запису",
   // loading message - to Loading Votes
-  "loading_votes": "Loading Votes",
+  "loading_votes": "Завантаження голосів",
   // chart title - 3 Days Ranking
-  "3_day_ranking": "3 Days Ranking",
+  "3_day_ranking": "Рейтинг за 3 дні",
   // userinformation message 2 - title
-  "live_ranking": "Live Ranking",
+  "live_ranking": "Рейтинг наживу",
   // userinformation message 2 - description
-  "live_ranking_msg": "Refreshes every 15 seconds. New votes may take up to 1-2 minutes before being counted",
+  "live_ranking_msg": "Оновлюється кожні 15 секунд. Нові голоси можуть бути прийняті до 1-2 хвилини до підрахунку голосів",
   // table - row title - Candidate
-  "candidate": "Candidate",
+  "candidate": "Кандидат",
   // table - row title - Current Votes
-  "current_votes": "Current Votes",
+  "current_votes": "Поточні голоси",
   // button description - to Click here to Start Voting
-  "click_to_start_voting": "Click here to Start Voting",
+  "click_to_start_voting": "Натисніть щоб розпочати голосування",
   // infomessage how many votes are available eg. 20 Votes Remaining
-  "votes_remaining_message": "Votes Remaining",
+  "votes_remaining_message": "Голосів Лишилось",
   // errormessage - Open wallet to start voting
-  "open_wallet_start_voting_message": "Open wallet to start voting",
+  "open_wallet_start_voting_message": "Відкрийте гаманець, щоб розпочати голосування",
   // infomessage - submitting vote
-  "thanks_submitting_vote_message": "Thanks for submitting your vote!",
+  "thanks_submitting_vote_message": "Дякуємо, що подали свій голос!",
   // errormessage - You need at least 1 TRX to be able to vote
-  "need_min_trx_to_vote_message": "You need at least 1 TRX to be able to vote",
+  "need_min_trx_to_vote_message": "Вам потрібно мати принаймні 1 TRX, для голосування",
   // errormessage - voting - You spend to much votes
-  "to_much_votes_massage": "You spend to much votes!",
+  "to_much_votes_massage": "Ви витрачаєте багато голосів!",
   // statusmessage - All votes are used!
-  "all_votes_are_used_message": "All votes are used!",
+  "all_votes_are_used_message": "Всі голоси використані!",
   // statusmessage - title - Thank you for voting!
-  "submissing_vote_message_title": "Thank you for voting!",
+  "submissing_vote_message_title": "Дякуємо за голосування!",
   // statusmessage - description - part 1
-  "submissing_vote_message_0": "Your votes are successfully submitted, they will take effect when the next voting cycle starts.",
+  "submissing_vote_message_0": "Ваші голоси успішно зараховані, вони набируть чинності після початку наступного циклу голосування.",
   // statusmessage - description - part 2
-  "submissing_vote_message_1": "You may redistribute your votes anytime you like",
+  "submissing_vote_message_1": "Ви можете розподілити свої голоси будь-коли, коли захочете",
   // errormessage - voting
-  "submitting_vote_error_message": "Something went wrong while submitting your votes. Please try again later.",
+  "submitting_vote_error_message": "Щось сталося не дуже добре під час подання ваших голосів. Будь-ласка спробуйте пізніше.",
 
 /*
 ##################################################################################
@@ -786,18 +787,18 @@ export const messages = {
 #                                                                                #
 ##################################################################################
 */
-  "info_tx_viewer": "Here you can paste a transaction hex to inspect the contents of a transaction. The transaction can then be broadcasted to the network",
-  "load_tx": "Load Transaction",
-  "tx_qrcode": "Transaction QR Code",
-  "load_tx_qrcode": "Load Transaction from QR Code",
-  "transaction_load_error": "Transaction Load Error",
-  "transaction_load_error_message": "Something went wrong while trying to load the transaction. Make sure the HEX is in a correct format",
-  "transaction_success_message": "Transaction successfully broadcasted to the network",
-  "transaction_success": "Transaction Success",
-  "transaction_error_message": "Something went wrong while trying to broadcast the transaction",
-  "transaction_error": "Transaction Error",
-  "confirm_transaction_message": "Are you sure you want to send the transaction?",
-  "broadcast_transaction_to_network": "Broadcast Transaction to Network",
+  "info_tx_viewer": "Тут ви можете вставити номер транзакції, щоб перевірити її транзакції. Транзакція може транслюватися в мережі",
+  "load_tx": "Завантаження транзакції",
+  "tx_qrcode": "QR код транзакції",
+  "load_tx_qrcode": "Завантажити транзакцію з QR Code",
+  "transaction_load_error": "Помилка завантаження транзакції",
+  "transaction_load_error_message": "Щось сталося не дуже добре під час завантаження транзакції. Впевніться що HEX має корректний формат",
+  "transaction_success_message": "Транзакція успішно передана в мережу.",
+  "transaction_success": "Транзакція успішна",
+  "transaction_error_message": "Під час спроби транслювати транзакцію сталася помилка",
+  "transaction_error": "Помилка транзакції",
+  "confirm_transaction_message": "Ви впевненні, що Ви хочете відправити транзакцію?",
+  "broadcast_transaction_to_network": "Передача транзакції в мережу",
 
 /*
 ##################################################################################
@@ -807,17 +808,17 @@ export const messages = {
 ##################################################################################
 */
   // field descritionp - enter a valid ip address
-  "node_tester_msg": "Insert the IP of your node to test GRPC connection",
+  "node_tester_msg": "Вставте IP адресу Вашого вузла, щоб протестувати GRPC падключення",
   // button description - to stop the test
-  "node_tester_stop": "Stop testing",
+  "node_tester_stop": "Зупинити тестування",
   // button description - to start the test
-  "node_tester_test": "Test GRPC",
+  "node_tester_test": "Тестування GRPC",
   // tableinformation - row title
-  "node_tester_rt": "Response Time",
+  "node_tester_rt": "Час відповіді",
   // tableinformation - row title
-  "confirmed_block": "Confirmed Block",
+  "confirmed_block": "Підтверджений блок",
   // status dialog ... to loding the test result
-  "loading": "loading...",
+  "loading": "завантаження...",
 
 /*
 ##################################################################################
@@ -827,11 +828,11 @@ export const messages = {
 ##################################################################################
 */
   // errormessage - No webcam found
-  "no_webcam_found": "No webcam found",
+  "no_webcam_found": "Вебкамера не знайдена",
   // errormessage - Error while trying to enable webcam.
-  "trying_enable_webcam_message_0": "Error while trying to enable webcam.",
+  "trying_enable_webcam_message_0": "Помилка під час спроби ввімкнути веб-камеру.",
   // errormessage - Make sure camera permissions are enabled.
-  "trying_enable_webcam_message_1": "Make sure camera permissions are enabled.",
+  "trying_enable_webcam_message_1": "Переконайтеся, що камера має дозвіл на увімкнення.",
 
 /*
 ##################################################################################
@@ -841,15 +842,16 @@ export const messages = {
 ##################################################################################
 */
   // navigation bar - help - hyperlink - to get informations about tron
-  "what_is_tron": "What is TRON",
+  "what_is_tron": "Що таке TRON",
   // navigation bar - help - hyperlink - to get
   "tron_explorer_api": "Tron Explorer API",
   // navigation bar - help - hyperlink - to get informations about the TRON Architecture
-  "tron_architechure": "TRON Architecture",
+  "tron_architechure": "TRON Архітектура",
   // navigation bar - help - hyperlink - to get the TRON Protobuf Documentation
-  "tron_protobuf_doc": "TRON Protobuf Documentation",
+  "tron_protobuf_doc": "TRON Protobuf документація",
   // navigation bar - help - hyperlink - to Submit a bug / suggestion
-  "report_an_error": "Submit a bug / suggestion",
+  "report_an_error": "Надіслати помилку / пропозицію
+",
 
 /*
 ##################################################################################
@@ -859,50 +861,50 @@ export const messages = {
 ##################################################################################
 */
   // button description - to open a new wallet
-  "open_wallet": "Open Wallet",
+  "open_wallet": "Відкрити гаманець",
   // input field description to enter the private key for the authentication
-  "private_key": "Private Key",
+  "private_key": "Закритий ключ",
   // description to select the keystore file for the authentication
-  "keystore_file": "Keystore File",
+  "keystore_file": "Файл ключа",
   // button description - select the keystore file
-  "select_file": "Select File",
+  "select_file": "Виберіь файл",
   // button description - Login with a mobile device
-  "login_mobile": "Login with a mobile device",
+  "login_mobile": "Вхід за допомогою мобільного пристрою",
   // button description - create wallet
-  "create_wallet": "create wallet",
+  "create_wallet": "створити гаманець",
   // errormessage - no wallet available - No open wallet to view
-  "no_open_wallet": "No open wallet to view",
+  "no_open_wallet": "Немає відкритого гаманця для перегляду",
   // wizzard dialog - create new wallet - title
-  "new_wallet": "New Wallet",
+  "new_wallet": "Створити новий гаманець",
   // wizzard dialog - create new wallet - password information message 1
-  "password_encr_key_message_0": "This password encrypts your private key. This does not act as a seed to generate your keys.",
+  "password_encr_key_message_0": "Цей пароль закодує Ваш закритий ключ. Це не теж саме що і seed, для генерації Ваших ключів.",
   // wizzard dialog - create new wallet - password information message 1
-  "password_encr_key_message_1": "You will need this password and your private key to unlock your wallet.",
+  "password_encr_key_message_1": "Вам знадобляться цей пароль і ваш приватний ключ для розблокування гаманця.",
   // wizzard dialog - create new wallet - password field description
-  "strong_password_info": "A strong password is required",
+  "strong_password_info": "Потрібно використовувати складний пароль",
   // wizzard dialog - create new wallet - title
-  "save_keystore_file": "Save Your Keystore File",
+  "save_keystore_file": "Зберегти файл ключа",
   // wizzard dialog - create new wallet - button description to download the keystore file
-  "download_keystore_file": "Download Encrypted Key",
+  "download_keystore_file": "Завантажити файл ключа",
   // wizzard dialog - create new wallet - userinformation 1 prefix
-  "do_not_lose_it": "Do not lose it!",
+  "do_not_lose_it": "Не згубіть його!",
   // wizzard dialog - create new wallet - userinformation 1 text
-  "do_not_lose_it_message_0": "Tron Foundation cannot help you recover a lost key.",
+  "do_not_lose_it_message_0": "Tron Foundation не зможе допомогти Вам його відновити.",
   // wizzard dialog - create new wallet - userinformation 2 prefix
-  "do_not_share_it": "Do not share it!",
+  "do_not_share_it": "Не діліться ним!",
   // wizzard dialog - create new wallet - userinformation 2 text
-  "do_not_share_it_message_0": "Your funds may be stolen if you use this file a malicious site.",
+  "do_not_share_it_message_0": "Ваші кошти можуть бути викрадені, якщо ви використуєте цей файл на зловмисному сайті",
   // wizzard dialog - create new wallet - userinformation 3 prefix
-  "make_a_backup": "Make a backup!",
+  "make_a_backup": "Створіть резервну копію!",
   // wizzard dialog - create new wallet - userinformation 3 text
-  "make_a_backup_message_0": "Just in case your laptop is set on fire.",
+  "make_a_backup_message_0": "Про всяк випадок, якщо Ваш ноутбук спалахне.",
   // wizzard dialog - create new wallet - inputfield title
-  "save_private_key": "Save Your Private Key",
+  "save_private_key": "Збережіть закритий ключ",
   // wizzard dialog - create new wallet - button description to print an paper wallet
-  "print_paper_wallet": "Print Paper Wallet",
+  "print_paper_wallet": "Роздрукуйте паперовий гаманець",
   // wizzard dialog - create new wallet - statusmessage 1
-  "new_wallet_ready_message": "Your new wallet is ready",
+  "new_wallet_ready_message": "Ваш гаманець готовий",
   // wizzard dialog - create new wallet - button description
-  "go_to_account_page": "Go to account page",
+  "go_to_account_page": "До сторінки облікового запису",
 
 };
